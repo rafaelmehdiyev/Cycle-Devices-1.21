@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "R": {
+      "item": "minecraft:blaze_rod"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "PGP",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rafaels-cycle-devices:weather_cycle_device"
+  }
+}

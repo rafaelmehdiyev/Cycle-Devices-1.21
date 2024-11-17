@@ -1,0 +1,19 @@
+{
+  "itemgroup.rafaels-cycle-device.weather_cycle_device": "Dispositivi per il ciclo di Rafael 🌦",
+
+  "item.rafaels-cycle-devices.weather_cycle_device": "╓═╣ Dispositivo del ciclo meteorologico ╠═╖",
+
+  "weather_change.weather-cycle-device.to_rainy": "§9Il meteo è cambiato in pioggia 🌧",
+  "weather_change.weather-cycle-device.to_thunder": "§6Il meteo è cambiato in Temporale ⛈",
+  "weather_change.weather-cycle-device.to_clear": "§aIl meteo è cambiato in sereno ☀",
+
+  "tooltip.rafaels-cycle-devices.weather_cycle_device": "╚═╣ §6Questo dispositivo è progettato per §o%s§r, dalle creature sconosciute provenienti da un'altra dimensione ╠═╝",
+
+  "item.rafaels-cycle-devices.time_cycle_device": "╓═╣ Dispositivo di ciclo temporale ╠═╖",
+
+  "time_change.time-cycle-device.to_night": "§5Il tempo è stato spostato al tramonto 🌙",
+  "time_change.time-cycle-device.to_midnight": "§8Il tempo si è deformato fino a mezzanotte ✦",
+  "time_change.time-cycle-device.to_day": "§eL'alba sorge! La luce del giorno splende ☀",
+  "tooltip.rafaels-cycle-devices.time_cycle_device": "╚═╣ §5Piega il tempo alla tua volontà, forgiato per i padroni del tempo ╠═╝"
+
+}

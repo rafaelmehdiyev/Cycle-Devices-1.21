@@ -1,0 +1,19 @@
+{
+  "itemgroup.rafaels-cycle-device.weather_cycle_device": "Rafael's Cycle Devices 🌦",
+
+  "item.rafaels-cycle-devices.weather_cycle_device": "╓═╣ Weather Cycle Device ╠═╖",
+
+  "weather_change.weather-cycle-device.to_rainy": "§9Weather changed to Rain 🌧",
+  "weather_change.weather-cycle-device.to_thunder": "§6Weather changed to Thunderstorm ⛈",
+  "weather_change.weather-cycle-device.to_clear": "§aWeather changed to Clear ☀",
+
+  "tooltip.rafaels-cycle-devices.weather_cycle_device": "╚═╣ §6This device is designed for §o%s§r, by the unknown creatures from another dimension ╠═╝",
+
+  "item.rafaels-cycle-devices.time_cycle_device": "╓═╣ Time Cycle Device ╠═╖",
+
+  "time_change.time-cycle-device.to_night": "§5Time shifted to Nightfall 🌙",
+  "time_change.time-cycle-device.to_midnight": "§8Time warped to Midnight ✦",
+  "time_change.time-cycle-device.to_day": "§eSunrise breaks! Daylight shines ☀",
+  "tooltip.rafaels-cycle-devices.time_cycle_device": "╚═╣ §5Bend time to your will, forged for masters of time ╠═╝"
+
+}

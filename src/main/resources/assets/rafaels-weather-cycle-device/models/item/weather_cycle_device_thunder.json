@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "rafaels-weather-cycle-device:item/weather_cycle_device_thunder"
-  }
-}

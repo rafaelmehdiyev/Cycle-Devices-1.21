@@ -1,0 +1,19 @@
+{
+  "itemgroup.rafaels-cycle-device.weather_cycle_device": "Rafaelin Dövr Cihazları 🌦",
+
+  "item.rafaels-cycle-devices.weather_cycle_device": "╓═╣ Hava Dövr Cihazı ╠═╖",
+
+  "weather_change.weather-cycle-device.to_rainy": "§9Yağış yağmağa başladı 🌧",
+  "weather_change.weather-cycle-device.to_thunder": "§6Tufan başladı ⛈",
+  "weather_change.weather-cycle-device.to_clear": "§aHava aydınlaşdı ☀",
+
+  "tooltip.rafaels-cycle-devices.weather_cycle_device": "╚═╣ §6Bu cihaz §o%s üçün §r, başqa diyardan naməlum canlılar tərəfindən hazırlanmışdır ╠═╝",
+
+  "item.rafaels-cycle-devices.time_cycle_device": "╓═╣ Zaman Dövr Cihazı ╠═╖",
+
+  "time_change.time-cycle-device.to_night": "§5Vaxt Gecəyə doğru dəyişdi 🌙",
+  "time_change.time-cycle-device.to_midnight": "§8Vaxt gecə yarısına doğru dəyişdi ✦",
+  "time_change.time-cycle-device.to_day": "§eSəhər açılır! Gün işığı parlayır ☀",
+  "tooltip.rafaels-cycle-devices.time_cycle_device": "╚═╣ §5Zamanı öz iradənlə dəyiş, zamanın ustaları üçün düzəldilib ╠═╝"
+
+}

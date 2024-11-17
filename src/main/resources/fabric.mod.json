@@ -1,40 +1,41 @@
 {
-	"schemaVersion": 1,
-	"id": "rafaels-weather-cycle-device",
-	"version": "${version}",
-	"name": "Rafael's Weather Cycle Device",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "MIT",
-	"icon": "assets/rafaels-weather-cycle-device/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.rafael.weathercycledevice.RafaelsWeatherCycleDevice"
-		],
-		"fabric-datagen": [
-			"net.rafael.weathercycledevice.RafaelsWeatherCycleDeviceDataGenerator"
-		],
-		"client": [
-			"net.rafael.weathercycledevice.RafaelsWeatherCycleDeviceClient"
-		]
-	},
-	"mixins": [
-		"rafaels-weather-cycle-device.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "rafaels-cycle-devices",
+  "version": "${version}",
+  "name": "Rafael's Cycle Devices",
+  "description": "Master the elements of time and weather with Rafael's Cycle Devices! This mod introduces two powerful tools: the Weather Cycle Device and the Time Cycle Device. Seamlessly control the weather or shift between day and night with ease. Perfect for adventurers, builders, and time-travel enthusiasts, these devices let you shape the world to your liking. With intuitive functionality and cooldown mechanics, you'll always have the power of the cycles at your fingertips!",
+  "authors": [
+    "RaFaEL0 (Rafael Mehdiyev)",
+    "messybox"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/RaFaEL0",
+    "sources": "https://github.com/rafaelmehdiyev/Cycle-Devices-1.21"
+  },
+  "license": "MIT",
+  "icon": "assets/rafaels-cycle-devices/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rafael.cycledevices.RafaelsCycleDevices"
+    ],
+    "fabric-datagen": [
+      "net.rafael.cycledevices.RafaelsCycleDevicesDataGenerator"
+    ],
+    "client": [
+      "net.rafael.cycledevices.RafaelsCycleDevicesClient"
+    ]
+  },
+  "mixins": [
+    "rafaels-cycle-devices.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }
