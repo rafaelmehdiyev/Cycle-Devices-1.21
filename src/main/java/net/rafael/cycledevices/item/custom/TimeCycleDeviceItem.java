@@ -7,8 +7,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
-import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
 import java.util.HashMap;
@@ -24,12 +24,12 @@ public class TimeCycleDeviceItem extends Item {
     }
 
     @Override
-    public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
+    public ActionResult use(World world, PlayerEntity player, Hand hand) {
         if (!world.isClient) {
             ServerWorld serverWorld = (ServerWorld) world;
             if (getCooldownForPlayer(player) > 0) {
                 player.sendMessage(Text.of("Please wait " + getCooldownForPlayer(player) / 20 + " seconds to use again."), true);
-                return TypedActionResult.fail(player.getStackInHand(hand));
+                return ActionResult.FAIL;
             }
 
             setCooldownForPlayer(player, 200); // 10 seconds
@@ -48,7 +48,7 @@ public class TimeCycleDeviceItem extends Item {
             }
             serverWorld.setTimeOfDay(newTime);
         }
-        return TypedActionResult.success(player.getStackInHand(hand));
+        return ActionResult.SUCCESS;
     }
 
     @Override

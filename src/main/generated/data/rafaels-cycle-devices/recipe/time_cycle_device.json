@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "C": {
-      "item": "minecraft:clock"
-    },
-    "G": {
-      "item": "minecraft:gold_ingot"
-    },
-    "N": {
-      "item": "minecraft:nether_star"
-    }
+    "C": "minecraft:clock",
+    "G": "minecraft:gold_ingot",
+    "N": "minecraft:nether_star"
   },
   "pattern": [
     "GGG",

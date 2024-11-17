@@ -2,18 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "G": {
-      "item": "minecraft:gold_block"
-    },
-    "P": {
-      "item": "minecraft:blaze_powder"
-    },
-    "R": {
-      "item": "minecraft:blaze_rod"
-    },
-    "W": {
-      "item": "minecraft:water_bucket"
-    }
+    "G": "minecraft:gold_block",
+    "P": "minecraft:blaze_powder",
+    "R": "minecraft:blaze_rod",
+    "W": "minecraft:water_bucket"
   },
   "pattern": [
     "WWW",
