@@ -1,3 +1,5 @@
-// 1.21.3	2024-11-17T16:14:34.084816	Rafael's Cycle Devices/Model Definitions
-a5d3b452a008776b840a1157e31d4c091be5bf8c assets\rafaels-cycle-devices\models\item\weather_cycle_device.json
-bab03c94b9fe9681b07ada5a247d16f917a7c0af assets\rafaels-cycle-devices\models\item\time_cycle_device.json
+// 1.21.4	-999999999-01-01T00:00:00	Rafael's Cycle Devices/Model Definitions
+9ce70063f008c5daae2ee704795d108f35343b6c assets/rafaels-cycle-devices/items/time_cycle_device.json
+32b7a6933c5e4390a5c84ac43b2c3eb352a97ee8 assets/rafaels-cycle-devices/items/weather_cycle_device.json
+bab03c94b9fe9681b07ada5a247d16f917a7c0af assets/rafaels-cycle-devices/models/item/time_cycle_device.json
+a5d3b452a008776b840a1157e31d4c091be5bf8c assets/rafaels-cycle-devices/models/item/weather_cycle_device.json
